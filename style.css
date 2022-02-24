@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #696969;
+}
+p{
+    font-size: 18px;
+    color:#464444;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+/* Sign in */
+.sI{
+    text-align: right;
+    margin-bottom: 20px;
+}
+/* mq */
+
+marquee{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    height: 32px;
+    
+}
+
+/* Menu */
+.menu{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu img{
+    margin: 0px 15px -20px;
+}
+.menu img:hover{
+    opacity: 0;
+}
+
+/* Slice */
+.slice{
+    margin-top: 30px;
+    position: relative;
+}
+.slice .left{
+    position: absolute;
+    left: 75px;
+    top: 120px;
+}
+.slice .left h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 80px;
+    color: #464444;   
+}
+.btn{
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: black;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+.slice .right{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.hidden{
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        margin-right: 30px;
+        font-size: 40px;
+        cursor: pointer;
+}
+.hidden:hover{
+    color: #464444;
+}
+.btn:hover{
+    background-color: pink;
+}
+
+/* Banner */
+.banner{
+    margin-top: 20px;
+}
+#bannerLeft{
+    width: 680px;
+    height: 750px;
+    margin-right: 20px;
+    float: left;
+    background-image: url('./image/banner2.jpg');
+    background-size: cover;
+}
+#bannerRight{
+    width: 500px;
+    height: 750px;
+    float: left;
+    background-image: url('./image/banner1.jpeg');
+    background-size: cover;
+}
+#bannerLeft > .textL{
+    text-align: left;
+}
+.textL{
+    margin-top: 300px;
+    /* margin-left: 400px; */
+    left: 440px;
+    bottom: 80px;
+    font-size: 70px;
+    color: #464444;
+}
+.view1{
+    margin-top: 10px;
+    margin-left: 165px;
+    bottom: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #464444;
+}
+/* #bannerRight > .textR{
+    text-align: right;
+} */
+.textR{
+    margin-top: 550px;
+    margin-left: 285px;
+    right: 440px;
+    bottom: 75px;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+.view2{
+    margin-top: 10px;
+    margin-left: 300px;
+    bottom: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: whitesmoke;
+}
+/* div>a>p{
+    font-size: 50px;
+} */
+
+/* Content */
+#title{
+    margin-top: 850px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.sp{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 550px;
+    margin-left: 0;
+    float: left;
+    overflow: hidden;
+}
+.sp:first-child{
+    margin-left: 0;
+}
+.sp img{
+    -webkit-tranform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+}
+.sp img:hover{
+    -webkit-tranform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.ten{
+    width: 300px;
+    margin-left: 0;
+    float: left;
+    overflow: hidden;
+}
+.ten p{
+    color: #464444;
+    text-align: center;
+    margin-top: 10px;
+}
+.layer3 .gia{
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    /* height: 550px; */
+    margin-left: 0;
+    float: left;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 23px;
+}
+/* .layer4 button{
+    text-align: center;
+    margin-top: 10px;
+    width: 297px;
+    background-color: pink;
+    border-radius: 15px;
+    border-color: pink;
+} */
+/* .layer4>.btn1{
+    text-align: center;
+    width: 297px;
+    margin-top: 10px;
+    padding: 15px 40px;
+    background-color: pink;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+} */
+.layer4 .btn{
+    text-align: center;
+    margin-right: 74px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+}
+
+/* Banner 2 */
+#bannerLeft1{
+    width: 720px;
+    /* height: 750px; */
+    margin-right: 20px;
+    float: left;
+    background-image: url('./image/banner2.1.jpg');
+    background-size: cover;
+}
+#bannerRight1{
+    width: 460px;
+    height: 700px;
+    float: left;
+    background-image: url('./image/banner2.4.jpg');
+    background-size: cover;
+}
+#bannerLeft1  .textL1{
+    text-align: left;
+}
+.textL1{
+    margin-top: 300px;
+    left: 440px;
+    bottom: 80px;
+    font-size: 70px;
+    color: #464444;
+}
+.view3{
+    margin-top: 5px;
+    margin-left: 100px;
+    bottom: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #464444;
+}
+#bannerRight1 .textR1{
+    text-align: left;
+}
+.textR1{
+    margin-top: 150px;
+    margin-left: 375px;
+    right: 440px;
+    bottom: 75px;
+    font-size: 50px;
+    /* text-align: center; */
+    color: #464444;
+}
+.view4{
+    margin-top: 10px;
+    margin-left: 350px;
+    bottom: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #464444;
+}
+.view5{
+    margin-top: 185px;
+    margin-left: 55px;
+    font-size: 150px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+/* Footer */
+.about{
+    width: 400px;
+    float: left;
+    margin-bottom: 20px;
+}
+.about h2{
+    margin-bottom: 15px;
+}
+.about #trai{
+    width: 70px;
+    height: 38px;
+    margin-top: 15px;
+    margin-right: 20px;
+    float: left;
+}
+.about #phai{
+    width: 245px;
+    float: left;
+    color: #464444;
+}
+.contact{
+    width: 300px;
+    float: left;
+}
+.contact p{
+    margin-top: 10px;
+    color: #464444;
+}
+.contact span{
+    font-size: 22px;
+    font-weight: bold;
+}
+.link{
+    width: 500px;
+    float: left;
+}
+.link p{
+    margin-top: 45px;
+    color: #696969;
+}
+.mxh{
+    margin-left: 1100px;
+}

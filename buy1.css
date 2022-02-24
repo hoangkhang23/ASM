@@ -1,0 +1,44 @@
+.buyContent12 img{
+    margin: 60px;
+    margin-left: 200px;
+    float: left;
+}
+.infoContent12 .tShirt1{
+    margin-top: 80px;
+    margin-left: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.infoContent12 p{
+    margin-top: 50px;
+    margin-left: 700px;
+    font-size: 25px;
+}
+.btnContent12{
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 15px 55px;
+    background-color: black;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+.buyNowContent12{
+    margin-top: 150px;
+    margin-left: 170px;
+    padding: 25px 125px;
+    background-color: black;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+.iptContent12{
+    margin-top: 150px;
+    margin-left: 100px;
+}

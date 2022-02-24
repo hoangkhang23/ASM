@@ -1,0 +1,52 @@
+.jacket img{
+    float: left;
+    margin: 50px;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.jacket img{
+    -webkit-tranform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+}
+.jacket img:hover{
+    -webkit-tranform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.giaJacket .giaJ{
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 60px;
+    float: left;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 23px;
+}
+.btnJ{
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: black;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+.btnJ:hover{
+    background-color: pink;
+}
+.btnJacket .btnJ{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 74px;
+    margin-left: 142px;
+    margin-bottom: 70px;
+}
